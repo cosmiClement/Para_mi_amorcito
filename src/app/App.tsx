@@ -174,10 +174,10 @@ function App() {
         <section className="welcome-card" aria-labelledby="love-question">
           <p>Una pregunta importante</p>
           <span className="welcome-flower" aria-hidden="true">✿</span>
-          <h1 id="love-question">¿Me amas?</h1>
+          <h1 id="love-question">Abre tu regalo mi amor</h1>
           <p className="welcome-note">Prometo que esta página está hecha con todo mi corazón.</p>
           <div className="welcome-actions">
-            <button className="yes-button" onClick={enterPage}>Sí, te amo</button>
+            <button className="yes-button" onClick={enterPage}>Abrir</button>
             <button className="no-button" onClick={() => setShowNoResponse(true)}>No</button>
           </div>
           {showNoResponse && <p className="welcome-response" role="status">Gracias por ser sincera. Siempre respetaré lo que sientes.</p>}
