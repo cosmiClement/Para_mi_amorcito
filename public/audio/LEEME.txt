@@ -1,0 +1,6 @@
+Graba tu mensaje de voz y guardalo con este nombre:
+
+mi-voz.mp3
+
+Coloca el archivo dentro de la carpeta public/audio.
+La pagina lo reproducira desde el boton "Escucha mi voz".
